@@ -18,6 +18,8 @@ The shop owner requested a **basic MySQL database** that could:
 
 This database acts as a foundation system that can later be extended for reporting, analytics, or integration with billing software.
 
+> Note: This project does not include the complete database structure or any real data, as full schema details and data insertion were restricted due to client confidentiality.
+
 ---
 
 ## Project Overview
@@ -96,11 +98,10 @@ Stores company-related information.
 
 ---
 
-## Proposed ChangesProposed%20Changes%20(Part%201).sql)
----
-
 ## Proposed Changes by the owner (Part 1)
 After reviewing real business requirements, the shop owner proposed several structural changes to improve data accuracy and flexibility in the SALES database.
+
+> You can see the First Proposed Changes by the owner here -> [Proposed Changes (Part 1)](/Proposed%20Changes%20Documents/Proposed%20Changes%20in%20Sales%20Databases%20(Part%201).pdf)
 
 ### Owner’s Requested Changes
 - Rename the table `company` to `companies`companies for better naming clarity.
@@ -122,6 +123,8 @@ All changes were applied using ALTER TABLE statements and carefully tested to en
 
 ## Proposed Changes – Part 2
 In the next phase, the shop owner requested **additional structural improvements** to further enhance data validation and flexibility in the SALES database.
+
+> > You can see the Second Proposed Changes by the owner here -> [Proposed Changes (Part 2)](/Proposed%20Changes%20Documents/Proposed%20Changes%20in%20Sales%20Databases%20(Part%202).pdf)
 
 ### Owner’s Requested Changes
 - Add a **UNIQUE constraint** to the **email address** column
@@ -162,3 +165,11 @@ Through this project, I gained hands-on experience with real-world database desi
 
 ## Conclusion
 This project showcases a complete **beginner-friendly MySQL database solution** built for a real small business. It demonstrates my ability to design databases, apply client-driven changes, and use SQL best practices in a practical, freelancing-style workflow.
+
+---
+
+### 📝 Note
+- This project does **not include the complete database structure and all columns**.
+- **No real data has been inserted** into the tables.
+- This is because **client permission was not granted** to share full schema details or actual business data.
+- The project focuses purely on **database design, structure, and schema modifications** for learning and portfolio purposes.
