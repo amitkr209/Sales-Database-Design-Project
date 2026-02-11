@@ -47,30 +47,3 @@ ADD FOREIGN KEY (item_code) REFERENCES items(item_code) ON DELETE CASCADE;
 
 ALTER TABLE items
 ADD FOREIGN KEY (company_id) REFERENCES company(company_id) ON DELETE CASCADE;
-
--- Renaming Table
-RENAME TABLE company TO companies;
-
--- Adding Unique Keys
-ALTER TABLE companies
-ADD UNIQUE KEY (headquarter_phone_number);
-
--- Drop Unique Key
-ALTER TABLE customers
-DROP INDEX email_address;
-
--- Add the Default value to the column
-ALTER TABLE customers
-CHANGE COLUMN number_of_complaints number_of_complaints INT DEFAULT 0;
-
--- Add the unique key
-ALTER TABLE customers
-ADD UNIQUE KEY (email_address);
-
--- Add a default value in the column
-ALTER TABLE companies
-CHANGE COLUMN company_name company_name VARCHAR(255) DEFAULT "X";
-
--- Conert the Not Null column to Null.
-ALTER TABLE sales
-MODIFY item_code INT NULL;
