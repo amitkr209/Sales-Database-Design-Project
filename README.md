@@ -52,7 +52,9 @@ This project helps in understanding **database structure, relationships, and sch
 ---
 
 ## ERD Diagram of Sales Database
-<img alt="Sales Database ERD Diagram" src="https://github.com/amitkr209/Sales-Database-Design-Project/blob/master/Sales%20Database%20ERD%20Diagram.png" width="600" align="left">
+<img alt="Sales Database ERD Diagram" src="https://github.com/amitkr209/Sales-Database-Design-Project/blob/master/Sales%20Database%20ERD%20Diagram.png" width="750">
+
+---
 
 ## Database Structure
 The database consists of the following main tables:
